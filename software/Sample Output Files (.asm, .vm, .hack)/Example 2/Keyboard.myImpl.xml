@@ -1,0 +1,514 @@
+<class>
+<keyword> class </keyword>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Keyboard </identifier>
+<symbol> { </symbol>
+<classVarDec>
+<keyword> static </keyword>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Array </identifier>
+<IdentifierInfo> declaration: True, kind: 0, index: 0 </IdentifierInfo>
+<identifier> keyboard </identifier>
+<symbol> ; </symbol>
+</classVarDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> init </identifier>
+<symbol> ( </symbol>
+<parameterList>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<statements>
+<letStatement>
+<keyword> let </keyword>
+<IdentifierInfo> declaration: False, kind: 0, index: 0 </IdentifierInfo>
+<identifier> keyboard </identifier>
+<symbol> = </symbol>
+<expression>
+<term>
+<integerConstant> 24576 </integerConstant>
+</term>
+</expression>
+<symbol> ; </symbol>
+</letStatement>
+<returnStatement>
+<keyword> return </keyword>
+<symbol> ; </symbol>
+</returnStatement>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> char </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> keyPressed </identifier>
+<symbol> ( </symbol>
+<parameterList>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<statements>
+<returnStatement>
+<keyword> return </keyword>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 0, index: 0 </IdentifierInfo>
+<identifier> keyboard </identifier>
+<symbol> [ </symbol>
+<expression>
+<term>
+<integerConstant> 0 </integerConstant>
+</term>
+</expression>
+<symbol> ] </symbol>
+</term>
+</expression>
+<symbol> ; </symbol>
+</returnStatement>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> char </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> readChar </identifier>
+<symbol> ( </symbol>
+<parameterList>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<varDec>
+<keyword> var </keyword>
+<keyword> char </keyword>
+<IdentifierInfo> declaration: True, kind: 3, index: 0 </IdentifierInfo>
+<identifier> key </identifier>
+<symbol> ; </symbol>
+</varDec>
+<statements>
+<whileStatement>
+<keyword> while </keyword>
+<symbol> ( </symbol>
+<expression>
+<term>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Keyboard </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> keyPressed </identifier>
+<symbol> ( </symbol>
+<expressionList>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+<symbol> = </symbol>
+<term>
+<integerConstant> 0 </integerConstant>
+</term>
+</expression>
+<symbol> ) </symbol>
+<symbol> { </symbol>
+<statements>
+</statements>
+<symbol> } </symbol>
+</whileStatement>
+<letStatement>
+<keyword> let </keyword>
+<IdentifierInfo> declaration: False, kind: 3, index: 0 </IdentifierInfo>
+<identifier> key </identifier>
+<symbol> = </symbol>
+<expression>
+<term>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Keyboard </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> keyPressed </identifier>
+<symbol> ( </symbol>
+<expressionList>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+</expression>
+<symbol> ; </symbol>
+</letStatement>
+<whileStatement>
+<keyword> while </keyword>
+<symbol> ( </symbol>
+<expression>
+<term>
+<symbol> ~ </symbol>
+<term>
+<symbol> ( </symbol>
+<expression>
+<term>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Keyboard </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> keyPressed </identifier>
+<symbol> ( </symbol>
+<expressionList>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+<symbol> = </symbol>
+<term>
+<integerConstant> 0 </integerConstant>
+</term>
+</expression>
+<symbol> ) </symbol>
+</term>
+</term>
+</expression>
+<symbol> ) </symbol>
+<symbol> { </symbol>
+<statements>
+</statements>
+<symbol> } </symbol>
+</whileStatement>
+<doStatement>
+<keyword> do </keyword>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> printChar </identifier>
+<symbol> ( </symbol>
+<expressionList>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 3, index: 0 </IdentifierInfo>
+<identifier> key </identifier>
+</term>
+</expression>
+</expressionList>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+</doStatement>
+<returnStatement>
+<keyword> return </keyword>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 3, index: 0 </IdentifierInfo>
+<identifier> key </identifier>
+</term>
+</expression>
+<symbol> ; </symbol>
+</returnStatement>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> String </identifier>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> readLine </identifier>
+<symbol> ( </symbol>
+<parameterList>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> String </identifier>
+<IdentifierInfo> declaration: True, kind: 2, index: 0 </IdentifierInfo>
+<identifier> message </identifier>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<varDec>
+<keyword> var </keyword>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> String </identifier>
+<IdentifierInfo> declaration: True, kind: 3, index: 0 </IdentifierInfo>
+<identifier> line </identifier>
+<symbol> ; </symbol>
+</varDec>
+<varDec>
+<keyword> var </keyword>
+<keyword> char </keyword>
+<IdentifierInfo> declaration: True, kind: 3, index: 1 </IdentifierInfo>
+<identifier> c </identifier>
+<symbol> ; </symbol>
+</varDec>
+<statements>
+<doStatement>
+<keyword> do </keyword>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Output </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> printString </identifier>
+<symbol> ( </symbol>
+<expressionList>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 2, index: 0 </IdentifierInfo>
+<identifier> message </identifier>
+</term>
+</expression>
+</expressionList>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+</doStatement>
+<letStatement>
+<keyword> let </keyword>
+<IdentifierInfo> declaration: False, kind: 3, index: 0 </IdentifierInfo>
+<identifier> line </identifier>
+<symbol> = </symbol>
+<expression>
+<term>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> String </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> new </identifier>
+<symbol> ( </symbol>
+<expressionList>
+<expression>
+<term>
+<integerConstant> 50 </integerConstant>
+</term>
+</expression>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+</expression>
+<symbol> ; </symbol>
+</letStatement>
+<letStatement>
+<keyword> let </keyword>
+<IdentifierInfo> declaration: False, kind: 3, index: 1 </IdentifierInfo>
+<identifier> c </identifier>
+<symbol> = </symbol>
+<expression>
+<term>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Keyboard </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> readChar </identifier>
+<symbol> ( </symbol>
+<expressionList>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+</expression>
+<symbol> ; </symbol>
+</letStatement>
+<whileStatement>
+<keyword> while </keyword>
+<symbol> ( </symbol>
+<expression>
+<term>
+<symbol> ~ </symbol>
+<term>
+<symbol> ( </symbol>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 3, index: 1 </IdentifierInfo>
+<identifier> c </identifier>
+</term>
+<symbol> = </symbol>
+<term>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> String </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> newLine </identifier>
+<symbol> ( </symbol>
+<expressionList>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+</expression>
+<symbol> ) </symbol>
+</term>
+</term>
+</expression>
+<symbol> ) </symbol>
+<symbol> { </symbol>
+<statements>
+<ifStatement>
+<keyword> if </keyword>
+<symbol> ( </symbol>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 3, index: 1 </IdentifierInfo>
+<identifier> c </identifier>
+</term>
+<symbol> = </symbol>
+<term>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> String </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> backSpace </identifier>
+<symbol> ( </symbol>
+<expressionList>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+</expression>
+<symbol> ) </symbol>
+<symbol> { </symbol>
+<statements>
+<doStatement>
+<keyword> do </keyword>
+<IdentifierInfo> declaration: False, kind: 3, index: 0 </IdentifierInfo>
+<identifier> line </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> eraseLastChar </identifier>
+<symbol> ( </symbol>
+<expressionList>
+</expressionList>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+</doStatement>
+</statements>
+<symbol> } </symbol>
+<keyword> else </keyword>
+<symbol> { </symbol>
+<statements>
+<doStatement>
+<keyword> do </keyword>
+<IdentifierInfo> declaration: False, kind: 3, index: 0 </IdentifierInfo>
+<identifier> line </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> appendChar </identifier>
+<symbol> ( </symbol>
+<expressionList>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 3, index: 1 </IdentifierInfo>
+<identifier> c </identifier>
+</term>
+</expression>
+</expressionList>
+<symbol> ) </symbol>
+<symbol> ; </symbol>
+</doStatement>
+</statements>
+<symbol> } </symbol>
+</ifStatement>
+<letStatement>
+<keyword> let </keyword>
+<IdentifierInfo> declaration: False, kind: 3, index: 1 </IdentifierInfo>
+<identifier> c </identifier>
+<symbol> = </symbol>
+<expression>
+<term>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Keyboard </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> readChar </identifier>
+<symbol> ( </symbol>
+<expressionList>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+</expression>
+<symbol> ; </symbol>
+</letStatement>
+</statements>
+<symbol> } </symbol>
+</whileStatement>
+<returnStatement>
+<keyword> return </keyword>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 3, index: 0 </IdentifierInfo>
+<identifier> line </identifier>
+</term>
+</expression>
+<symbol> ; </symbol>
+</returnStatement>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> int </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> readInt </identifier>
+<symbol> ( </symbol>
+<parameterList>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> String </identifier>
+<IdentifierInfo> declaration: True, kind: 2, index: 0 </IdentifierInfo>
+<identifier> message </identifier>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<varDec>
+<keyword> var </keyword>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> String </identifier>
+<IdentifierInfo> declaration: True, kind: 3, index: 0 </IdentifierInfo>
+<identifier> line </identifier>
+<symbol> ; </symbol>
+</varDec>
+<statements>
+<letStatement>
+<keyword> let </keyword>
+<IdentifierInfo> declaration: False, kind: 3, index: 0 </IdentifierInfo>
+<identifier> line </identifier>
+<symbol> = </symbol>
+<expression>
+<term>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Keyboard </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> readLine </identifier>
+<symbol> ( </symbol>
+<expressionList>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 2, index: 0 </IdentifierInfo>
+<identifier> message </identifier>
+</term>
+</expression>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+</expression>
+<symbol> ; </symbol>
+</letStatement>
+<returnStatement>
+<keyword> return </keyword>
+<expression>
+<term>
+<IdentifierInfo> declaration: False, kind: 3, index: 0 </IdentifierInfo>
+<identifier> line </identifier>
+<symbol> . </symbol>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> intValue </identifier>
+<symbol> ( </symbol>
+<expressionList>
+</expressionList>
+<symbol> ) </symbol>
+</term>
+</expression>
+<symbol> ; </symbol>
+</returnStatement>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<symbol> } </symbol>
+</class>

@@ -1,0 +1,170 @@
+<class>
+<keyword> class </keyword>
+<IdentifierInfo> category: class </IdentifierInfo>
+<identifier> Screen </identifier>
+<symbol> { </symbol>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> init </identifier>
+<symbol> ( </symbol>
+<parameterList>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<statements>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> clearScreen </identifier>
+<symbol> ( </symbol>
+<parameterList>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<statements>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> setColor </identifier>
+<symbol> ( </symbol>
+<parameterList>
+<keyword> boolean </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 0 </IdentifierInfo>
+<identifier> b </identifier>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<statements>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> drawPixel </identifier>
+<symbol> ( </symbol>
+<parameterList>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 0 </IdentifierInfo>
+<identifier> x </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 1 </IdentifierInfo>
+<identifier> y </identifier>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<statements>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> drawLine </identifier>
+<symbol> ( </symbol>
+<parameterList>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 0 </IdentifierInfo>
+<identifier> x1 </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 1 </IdentifierInfo>
+<identifier> y1 </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 2 </IdentifierInfo>
+<identifier> x2 </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 3 </IdentifierInfo>
+<identifier> y2 </identifier>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<statements>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> drawRectangle </identifier>
+<symbol> ( </symbol>
+<parameterList>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 0 </IdentifierInfo>
+<identifier> x1 </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 1 </IdentifierInfo>
+<identifier> y1 </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 2 </IdentifierInfo>
+<identifier> x2 </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 3 </IdentifierInfo>
+<identifier> y2 </identifier>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<statements>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<IdentifierInfo> category: subroutine </IdentifierInfo>
+<identifier> drawCircle </identifier>
+<symbol> ( </symbol>
+<parameterList>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 0 </IdentifierInfo>
+<identifier> cx </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 1 </IdentifierInfo>
+<identifier> cy </identifier>
+<symbol> , </symbol>
+<keyword> int </keyword>
+<IdentifierInfo> declaration: True, kind: 2, index: 2 </IdentifierInfo>
+<identifier> r </identifier>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<statements>
+</statements>
+<symbol> } </symbol>
+</subroutineBody>
+</subroutineDec>
+<symbol> } </symbol>
+</class>
